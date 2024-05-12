@@ -132,17 +132,16 @@
   <ItemGroup>
     <ClCompile Include="3Dexam.cpp" />
     <ClCompile Include="glad.c" />
-    <ClCompile Include="Shader.cpp" />
-    <ClCompile Include="ShaderFileLoader.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Camera.h" />
     <ClInclude Include="includes\assimp\Bitmap.h" />
     <ClInclude Include="includes\GLFW\glfw3.h" />
     <ClInclude Include="includes\GLFW\glfw3native.h" />
     <ClInclude Include="includes\glm\mat4x3.hpp" />
     <ClInclude Include="includes\KHR\khrplatform.h" />
     <ClInclude Include="Shader.h" />
-    <ClInclude Include="ShaderFileLoader.h" />
+    <ClInclude Include="Texture.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
